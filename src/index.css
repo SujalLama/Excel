@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+h1 {
+  /* margin-bottom: 1.5em; */
+  letter-spacing: 0.05em;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.table-wrapper {
+  overflow-x: scroll;
+}
+
+.table-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .table-content {
+    max-width: 60%;
+  }
+}
+
+button {
+  background-color: #4f4f4f;
+  color: #fff;
+  padding: .8em 1em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 2em;
+  border-radius: .2em;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+table {
+  max-width: 100%;
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+
+th {
+  border: 2px solid #000;
+  padding: 1em;
+  background-color: #4f4f4f;
+  color: #fff;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.td {
+  border: 2px solid #000;
+  padding: 1em;
+}
