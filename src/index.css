@@ -39,7 +39,7 @@ h1 {
   }
 }
 
-button {
+.toolbar {
   background-color: #4f4f4f;
   color: #fff;
   padding: .8em 1em;
@@ -50,6 +50,8 @@ button {
   border-radius: .2em;
   font-size: 1.2rem;
   font-weight: 700;
+  text-decoration: none;
+  margin-right: 1em;
 }
 
 table {

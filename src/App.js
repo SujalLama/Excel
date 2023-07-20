@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="container">
       <h1>Excel Sheet</h1>
-      <Excel headers={headers} initialData={data} />
+      <Excel headers={headers} initialData={[]} />
     </div>
   );
 }
